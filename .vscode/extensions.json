@@ -1,0 +1,28 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "vivaxy.vscode-conventional-commits",
+        "cweijan.vscode-database-client2",
+        "ms-azuretools.vscode-docker",
+        "mikestead.dotenv",
+        "codezombiech.gitignore",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "kotfire.php-add-property",
+        "mehedidracula.php-constructor",
+        "xdebug.php-debug",
+        "neilbrayfield.php-docblocker",
+        "xdebug.php-pack",
+        "phproberto.vscode-php-getters-setters",
+        "bmewburn.vscode-intelephense-client",
+        "mehedidracula.php-namespace-resolver",
+        "onecentlin.php-productive-pack",
+        "nadim-vscode.symfony-code-snippets",
+        "duboiss.sf-pack",
+        "thenouillet.symfony-vscode",
+        "nadim-vscode.twig-code-snippets",
+        "mblode.twig-language-2",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml"
+    ]
+}
