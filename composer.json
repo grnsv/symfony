@@ -1,12 +1,23 @@
 {
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": ">=8.1",
+        "ext-amqp": "*",
         "ext-ctype": "*",
+        "ext-curl": "*",
+        "ext-gd": "*",
         "ext-iconv": "*",
+        "ext-intl": "*",
+        "ext-openssl": "*",
+        "ext-pdo_pgsql": "*",
+        "ext-redis": "*",
+        "ext-sodium": "*",
+        "ext-xsl": "*",
+        "ext-zend-opcache": "*",
+        "ext-zip": "*",
         "blackfireio/blackfire-symfony-meta": "^1.0",
         "doctrine/doctrine-bundle": "^2.10",
         "doctrine/doctrine-migrations-bundle": "^3.2",
@@ -95,6 +106,7 @@
         }
     },
     "require-dev": {
+        "ext-xdebug": "*",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "6.3.*",
         "symfony/css-selector": "6.3.*",
