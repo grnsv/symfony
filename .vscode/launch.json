@@ -14,6 +14,13 @@
             },
             "ignore": [
                 // "**/vendor/**/*.php",
+                "**/vendor/doctrine/persistence/src/Persistence/Mapping/AbstractClassMetadataFactory.php",
+                "**/vendor/doctrine/persistence/src/Persistence/Mapping/Driver/MappingDriverChain.php",
+                "**/vendor/doctrine/persistence/src/Persistence/Mapping/RuntimeReflectionService.php",
+                "**/vendor/symfony/property-info/Extractor/PhpDocExtractor.php",
+                "**/vendor/symfony/property-info/Extractor/PhpStanExtractor.php",
+                "**/vendor/symfony/property-info/Extractor/ReflectionExtractor.php",
+                "**/vendor/symfony/var-dumper/Caster/ClassStub.php",
             ]
         }
     ]
