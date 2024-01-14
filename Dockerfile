@@ -30,3 +30,5 @@ RUN usermod -o -u $UID $USER && groupmod -o -g $GID $USER
 RUN chown -R $UID:$GID /var/www
 
 USER $USER
+
+ENTRYPOINT [ "symfony", "run", "-d", "--watch=config,src,templates,vendor", "symfony", "console", "messenger:consume", "async", "-vv"]
